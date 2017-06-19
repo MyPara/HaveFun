@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ <script language="JavaScript">
+ alert("hi~"); 
+ alert("i love u!")
+ alert("haha~")
+ do{
+ var myName=prompt("do  u love me?(suggest answer：YES)","")
+if(myName =="no"||myName=="No"||myName=="NO"||myName=="不"||myName=="不的"){
+	var c= Math.random()*2+1;
+	var a =Math.round(c);
+	switch(a){
+	case 1:{alert(":)");break;}
+	case 2:{alert("不好使:)");break;}
+	case 3:{alert("THINK ONE MORE TIME!");break;}
+	 
+	}}
+ if(myName!="YES"||myName!="yes"){
+ alert("HEHE");
+ alert("闹呢~");
+ alert("SENT U BACK AND U CAN SAY ONE MORE TIME!")}
+ else{alert("我也爱你，么么哒~");}
+ }while(myName!="YES")
+</script> 
+ </head>
+ <body>
+ 
+ </body>
+</html>
